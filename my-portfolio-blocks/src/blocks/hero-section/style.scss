@@ -1,0 +1,4 @@
+.hero-section { position: relative; background-size: cover; background-position: center; padding: 40px 20px; min-height: 400px; display:flex; align-items:center; justify-content:center; }
+.hero-section .hero-overlay { position:absolute; top:0; left:0; right:0; bottom:0 }
+.hero-section .hero-content { position:relative; z-index:1; text-align:center }
+.hero-button { display:inline-block; padding:12px 24px; background:#007cba; color:#fff; border-radius:4px }

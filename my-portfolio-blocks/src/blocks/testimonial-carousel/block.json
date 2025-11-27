@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "my-portfolio-blocks/testimonial-carousel",
+  "version": "1.0.0",
+  "title": "Testimonial Carousel",
+  "category": "design",
+  "description": "A pure CSS/JS testimonial carousel",
+  "textdomain": "my-portfolio-blocks",
+  "attributes": { "testimonials": { "type": "array", "default": [] } },
+  "supports": { "html": false },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

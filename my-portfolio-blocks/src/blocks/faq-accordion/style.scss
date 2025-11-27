@@ -1,0 +1,5 @@
+.faq-accordion { max-width:800px; margin:0 auto; padding:30px }
+.faq-item { border:1px solid #e0e0e0; border-radius:8px; margin-bottom:12px; overflow:hidden }
+.faq-question { padding:16px; background:#f8f9fa; cursor:pointer; display:flex; justify-content:space-between }
+.faq-answer { padding:0 16px; max-height:0; overflow:hidden; transition:all .2s }
+.faq-item.active .faq-answer { padding:16px; max-height:1000px }

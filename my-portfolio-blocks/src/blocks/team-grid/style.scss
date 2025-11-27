@@ -1,0 +1,4 @@
+.team-grid { display:grid; grid-template-columns:repeat(var(--team-columns, 3), 1fr); gap:24px; padding:30px }
+.team-member { background:#fff; border-radius:6px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.06) }
+.team-member-photo { width:100%; height:220px; object-fit:cover }
+.team-member-info { padding:16px }

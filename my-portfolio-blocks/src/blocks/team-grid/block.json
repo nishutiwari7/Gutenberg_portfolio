@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "my-portfolio-blocks/team-grid",
+  "version": "1.0.0",
+  "title": "Team Grid",
+  "category": "design",
+  "description": "Display team members in a responsive grid",
+  "textdomain": "my-portfolio-blocks",
+  "attributes": { "teamMembers": { "type": "array", "default": [] }, "columns": { "type": "number", "default": 3 } },
+  "supports": { "html": false },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

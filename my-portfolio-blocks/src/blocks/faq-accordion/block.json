@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "my-portfolio-blocks/faq-accordion",
+  "version": "1.0.0",
+  "title": "FAQ Accordion",
+  "category": "design",
+  "description": "FAQ section with accordion functionality",
+  "textdomain": "my-portfolio-blocks",
+  "attributes": { "faqs": { "type": "array", "default": [] } },
+  "supports": { "html": false },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

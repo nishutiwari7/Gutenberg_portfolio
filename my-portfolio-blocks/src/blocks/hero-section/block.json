@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "my-portfolio-blocks/hero-section",
+  "version": "1.0.0",
+  "title": "Hero Section",
+  "category": "design",
+  "description": "A hero section with background image and overlay",
+  "textdomain": "my-portfolio-blocks",
+  "attributes": {
+    "title": { "type": "string", "default": "Welcome to Our Portfolio" },
+    "description": { "type": "string", "default": "We create amazing digital experiences that help businesses grow." },
+    "buttonText": { "type": "string", "default": "Get Started" },
+    "buttonUrl": { "type": "string", "default": "" },
+    "backgroundImage": { "type": "object", "default": null },
+    "overlayColor": { "type": "string", "default": "#000000" },
+    "overlayOpacity": { "type": "number", "default": 0.5 },
+    "textColor": { "type": "string", "default": "#ffffff" }
+  },
+  "supports": { "html": false, "align": ["wide", "full"] },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}
